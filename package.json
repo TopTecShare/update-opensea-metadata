@@ -5,9 +5,11 @@
   "license": "MIT",
   "dependencies": {
     "axios": "^0.24.0",
+    "node-fetch": "^3.2.5",
     "tiny-async-pool": "^1.2.0"
   },
   "scripts": {
     "start": "node updateMeta.js"
-  }
+  },
+  "type": "module"
 }
