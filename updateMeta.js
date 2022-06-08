@@ -2,7 +2,7 @@
 import fetch from "node-fetch";
 
 const url =
-  "https://api.opensea.io/api/v1/asset/0x9712228ceeda1e2ddde52cd5100b88986d1cb49c/";
+  "https://api.opensea.io/api/v1/asset/0x8642f4bfba8749566536eb600b44574c3fa8b687/";
 let startTokenID = 1;
 const endTokenID = 5000;
 
@@ -35,6 +35,6 @@ setInterval(async () => {
     return;
   }
 
-  console.log("Wulfz #" + startTokenID + " complete");
+  console.log("Goblinpets #" + startTokenID + " complete");
   startTokenID++;
-}, 4000);
+}, 100);
